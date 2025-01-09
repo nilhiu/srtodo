@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{.Title}}</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="main">
+      <h1>{{.Title}}</h1>
+      <p>{{.Description}}</p>
+    </div>
+    <div id="routes">
+      <ul class="left-list">
+        <li>User registration:</li>
+        <li>User authentication/login:</li>
+        <li>Getting todos:</li>
+        <li>Adding a todo:</li>
+        <li>Updating a todo:</li>
+        <li>Deleting a todo:</li>
+      </ul>
+      <ul class="right-list">
+        <li><code>POST /register</code></li>
+        <li><code>POST /login</code></li>
+        <li><code>GET /todos?page=1&amp;limit=10</code></li>
+        <li><code>POST /todos</code></li>
+        <li><code>PUT /todos/{id}</code></li>
+        <li><code>DELETE /todos/{id}</code></li>
+      </ul>
+    </div>
+  </body>
+</html>

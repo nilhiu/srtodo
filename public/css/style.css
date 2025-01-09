@@ -1,0 +1,54 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#routes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#routes li {
+  height: 1em;
+  padding: 0.3em;
+  margin-bottom: 0.8em;
+  background: #ccc;
+  border: 0.1em solid #000;
+}
+
+.left-list li {
+  border-radius: 10px 0 0 10px;
+  border-right-style: none !important;
+  padding-left: 3em !important;
+}
+
+.right-list li {
+  border-radius: 0 10px 10px 0;
+  border-left-style: none !important;
+  padding-right: 3em !important;
+}
+
+li, code {
+  vertical-align: middle;
+}
