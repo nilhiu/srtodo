@@ -1,7 +1,7 @@
 # Speedrunning roadmap.sh Todo List API
 
-The following code is a solution to the [roadmap.sh](roadmap.sh)'s
-[Todo List API](roadmap.sh/projects/todo-list-api) project, written in Go.
+The following code is a solution to the [roadmap.sh](https://roadmap.sh)'s
+[Todo List API](https://roadmap.sh/projects/todo-list-api) project, written in Go.
 
 As a heads-up, I wrote this to see how quickly I could learn to build an API
 in Go, having not worked with front- or back-end tech in more than a year, and
